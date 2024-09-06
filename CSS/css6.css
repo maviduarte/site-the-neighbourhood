@@ -1,0 +1,209 @@
+body {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.911)), url("../Imagens/TN5.jpg");
+    margin: 0;
+	padding: 0;
+    height: 100vh;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(80, 80, 80), rgb(255, 255, 255));
+    border-radius: 2px;
+
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(rgb(48, 48, 48), rgb(199, 199, 199));
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background: black;
+    border-style: solid;
+    height: 15px;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent grey transparent;
+}
+::-webkit-scrollbar-button:vertical:decrement:hover {
+    background: grey;
+    border-style: solid;
+    height: 14px;
+    border-width: 0 8px 8px 8px;
+    border-color: transparent transparent white transparent;
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background: black;
+    border-style: solid;
+    height: 15px;
+    border-width: 8px 8px 0 8px;
+    border-color: grey transparent transparent transparent;
+}
+::-webkit-scrollbar-button:vertical:increment:hover {
+    background: grey;
+    border-style: solid;
+    height: 14px;
+    border-width: 8px 8px 0 8px;
+    border-color: white transparent transparent transparent;
+}
+
+@font-face {
+	font-family: 'Red Undead S';
+	src: url('../Fontes/redundeadstaggeredrotal.ttf') format('truetype');
+}
+
+div.title {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.13), rgba(54, 54, 54, 0.425));
+	border: 4px double #414141;
+	padding: 10px 50px 10px 45px;
+    margin-top: 2em;
+	margin-left: 31em;
+    margin-right: 33em;
+    margin-bottom: 5em;
+}
+span.one {
+    color: white;
+	font-family: 'Red Undead S';
+	font-size: 65px;
+	text-shadow: 5px 5px 5px black, 2px 10px 30px rgba(119, 119, 119, 0.562);
+}
+
+.Home {
+	display: flex;
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
+
+.Home a {
+	display: flex;
+	background-color: #C0C0C0;
+	height: 45px;
+	width: 45px;
+	margin: 0 15px;
+	border-radius: 2px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 6px 6px 10px -1px rgba(168, 208, 224, 0.14), -6px -6px -10px -1px rgb(100, 102, 104);
+    transition: 0.3s;
+}
+.Home a:hover {
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.527),0 17px 50px 0 rgb(46, 46, 46);
+	background-color: #2c0c00;
+	transform: scale(0.95);
+}
+
+.Home a i {
+	font-size: 26px;
+	color: black;
+    transition: 0.3s;
+}
+.Home a:hover i {
+	color: white;
+	transform: scale(0.97);
+}
+
+div.text {
+	color: white;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.664)), url('../Imagens/TN6.jpg');
+    background-size: cover;
+	border: 4px double #414141;
+	border-bottom: none;
+    padding: 10px 50px 10px 150px;
+	margin-right: 3em;
+    margin-left: 3em;
+}
+
+@font-face {
+    font-family: 'Kenyan Coffee';
+    src: url('../Fontes/kenyan\ coffee\ rg.otf') format('opentype');
+}
+h1 {
+	color: white;
+	font-family: 'Kenyan Coffee';
+	font-size: 50px;
+	padding-top: 10px;
+	text-shadow: 5px 5px 5px black, 2px 10px 20px rgba(90, 90, 90, 0.562);
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('../Fontes/Montserrat-VariableFont_wght.ttf') format('truetype');
+}
+span.font {
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 19px;
+}
+
+a.lk {
+	color: grey;
+	text-decoration: none;
+}
+a.lk:hover {
+	color: #572817;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	color: white;
+	font-size: 26px;
+	text-shadow: 3px 3px 3px black;
+}
+
+.midiaSocial {
+	display: flex;
+	align-items: center;
+}
+
+.midiaSocial a {
+	display: flex;
+	background-color: #C0C0C0;
+	height: 45px;
+	width: 45px;
+	margin: 0 15px;
+	border-radius: 2px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 6px 6px 10px -1px rgba(168, 208, 224, 0.14), -6px -6px -10px -1px rgb(100, 102, 104);
+	transition: 0.3s;
+}
+
+.midiaSocial a:hover {
+	transform: scale(0.90);
+	box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.527),0 17px 50px 0 rgb(46, 46, 46);
+	background-color: #2c0c00;
+}
+
+.midiaSocial a i {
+	font-size: 26px;
+	color: black;
+}
+
+.midiaSocial a:hover i {
+	transform: scale(0.95);
+	color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 60px 60px 10px 60px;
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(63, 63, 63));
+    color: white;
+}
+a.contato {
+	color: grey;
+	text-decoration: none;
+}
+a.contato:hover {
+	color: #2c0c00;
+}
