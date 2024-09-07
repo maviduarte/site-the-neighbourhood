@@ -3,7 +3,7 @@
  
  Deselvolvimento de um site de uma banda da minha preferência.
  No caso:
- The Neighbourhood
+    **The Neighbourhood**
  
- em aberto
- site com problemas na visualização/layout em outros dispositivos que não contém uma resolução de 1440x900
+ *em aberto*
+ *site com problemas na visualização/layout em outros dispositivos que não contém uma resolução de 1440x900*
